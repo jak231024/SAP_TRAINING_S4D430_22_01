@@ -1,0 +1,13 @@
+{
+"BASEINFO":
+{
+"FROM":
+[
+"ZI_ABAP_BOOKINGWITHAGENCY"
+],
+"ASSOCIATED":
+[],
+"BASE":
+[]
+}
+}

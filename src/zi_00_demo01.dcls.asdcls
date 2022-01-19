@@ -1,0 +1,7 @@
+@EndUserText.label: 'Demo 15: Authorization Checks'
+@MappingRole: true
+define role ZI_00_DEMO01 {
+    grant select on ZI_00_DEMO01
+      where (CarrierId) = aspect pfcg_auth(S_CARRID, CARRID, ACTVT = '03');
+                        
+}
